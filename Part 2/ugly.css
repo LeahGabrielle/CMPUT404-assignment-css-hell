@@ -35,20 +35,20 @@ body {
 /* Marqee from https://codepen.io/jamesbarnett/pen/kfmKa */
 @keyframes marquee {
 	0% { transform: translate(0%,0); }
-	100% { transform: translate(100%, 0); }
+	100% { transform: translate(80%, 0); }
 }
 
 /* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 /*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
 .containerSide {
-    height: 100%; 
-    width: 20%; 
-    position: absolute; 
-    z-index: 1; 
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
     top: 22%;
-    right: 0; 
+    right: 0;
     overflow-x: hidden;
-    transition: 0.5s; 
+    transition: 0.5s;
     /*From: http://i145.photobucket.com/albums/r238/Sockai-chan/Avatars/pikachu-1.png*/
     background-image: url("images/pikachu.png");
 }
@@ -61,9 +61,9 @@ body {
 	animation: blink-animation 2s steps(5, start) infinite;
 	-webkit-animation: blink-animation 2s steps(5,start) infinite;
 	order: 1;
- 	max-width: 442px; 
+ 	max-width: 442px;
  	max-height: 449px;
-   display: block;  
+   display: block;
 }
 
 img{
@@ -96,7 +96,7 @@ img{
 h1{
 	padding-left: 5%;
 	padding-right: 5%;
-	color: red;	
+	color: red;
 }
 
 
@@ -106,5 +106,5 @@ p {
 	padding-right: 5%;
 	color: black;
 	font-family: "Comic Sans MS";
-	text-shadow: 1px 1px 5px orange;	
+	text-shadow: 1px 1px 5px orange;
 }

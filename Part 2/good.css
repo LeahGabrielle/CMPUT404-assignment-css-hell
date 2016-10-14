@@ -31,15 +31,15 @@ body {
 /* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 /*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
 .containerSide {
-    height: auto; 
-    width: 20%; 
-    position: absolute; 
+    height: auto;
+    width: 20%;
+    position: absolute;
     display: flex;
-    z-index: 1; 
+    z-index: 1;
     top: 9%;
-    right: 1%; 
+    right: 1%;
     overflow-x: hidden;
-    transition: 0.5s; 
+    transition: 0.5s;
     /*http://www.w3schools.com/css/css3_gradients.asp*/
     background-color: #EDF1F7;
     border-left-style: solid;
@@ -55,9 +55,9 @@ body {
 }
 
 .profilePhoto {
- 	max-width: 442px; 
- 	max-height: 449px;
-	display: block; 
+ 	max-width: 200px;
+ 	max-height: 295px;
+	display: block;
 }
 
 img{
@@ -70,7 +70,7 @@ img{
 	width: 100%;
 	background-color: rgba(98,203,252,0.4);
 	margin-right: 22%;
-	
+
 }
 
 .history {
@@ -89,12 +89,12 @@ img{
 h1{
 	padding-left: 5%;
 	padding-right: 5%;
-	font-family: "Helvetica";	
+	font-family: "Helvetica";
 }
 
 p {
 	padding-left: 5%;
 	padding-right: 5%;
 	font-family: "Palatino";
-	
+
 }
